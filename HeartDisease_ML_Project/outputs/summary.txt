@@ -1,0 +1,36 @@
+=== Model Results (hold-out test) ===
+
+[logistic_regression]
+model: LogisticRegression
+accuracy: 0.8315217391304348
+precision: 0.8317757009345794
+recall: 0.8725490196078431
+f1: 0.8516746411483254
+roc_auc: 0.9023194643711142
+confusion_matrix: [[64, 18], [13, 89]]
+
+[random_forest]
+model: RandomForest
+accuracy: 0.8586956521739131
+precision: 0.8392857142857143
+recall: 0.9215686274509803
+f1: 0.8785046728971962
+roc_auc: 0.9252749880439981
+confusion_matrix: [[64, 18], [8, 94]]
+
+Top RF Features (name, importance):
+cp_asymptomatic: 0.1424
+chol: 0.1021
+oldpeak: 0.0961
+age: 0.0950
+thalch: 0.0930
+exang_False: 0.0761
+exang_True: 0.0655
+cp_atypical angina: 0.0567
+trestbps: 0.0454
+sex_Male: 0.0336
+thal_normal: 0.0325
+sex_Female: 0.0321
+ca: 0.0182
+cp_non-anginal: 0.0161
+thal_reversable defect: 0.0154
